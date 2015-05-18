@@ -12,7 +12,7 @@
 <body>
 		<table width='300' border='0' align='center' cellpadding='0' cellspacing='1' bgcolor='#CCCCCC'>
 			<tr>
-				<form action = 'register.html' method='post'>
+				<form action = 'register.php' method='post'>
 				<td>
 					<table width='100%' border='0' cellpadding='3' cellspacing='1' bgcolor='#FFFFFF'>
 						<tr>
@@ -66,7 +66,7 @@
 						echo "You have been registered!";
 						$regquery = "INSERT INTO members(username, password) VALUES('$user','$pass')";
 						$reg = mysqli_query($conn, $regquery);
-						header('Refresh: 3;url=index.html');
+						header('Refresh: 3;url=index.php');
 					}
 				}
 				else

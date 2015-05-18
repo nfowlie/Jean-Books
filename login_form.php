@@ -28,7 +28,7 @@
 							<td>&nbsp;</td>
 							<td><input type='submit' name='Submit' value='Login'></td>
 							</form>
-							<form method='post' action='register.html'>
+							<form method='post' action='register.php'>
 								<td><input type='submit' value='Register'></td>
 							</form>
 						</tr>
